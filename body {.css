@@ -13,8 +13,8 @@ h1 {
 }
 
 #idList {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     width: 100%;
     max-width: 800px;
